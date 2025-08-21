@@ -1,0 +1,80 @@
+.sedes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin : 2rem 0;
+    padding: 2rem   ;
+}
+
+.sedesHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    font-weight: 200;
+    color: #ff3131;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    align-items: center;
+    justify-content: start;
+    padding: 0 2rem;
+    letter-spacing: 10px;
+}
+
+.sedeContainer {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Para que se apile en móviles */
+    padding: 1rem;
+}
+
+.sedesInner {
+    flex: 1;
+    max-width: 500px;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+     /* Fondo transparentoso */
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.sedesInner h2 {
+    color: #ff3131;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.sedesInner p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0.3rem 0;
+}
+
+.mapa {
+    flex: 1;
+    max-width: 600px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

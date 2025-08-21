@@ -1,0 +1,63 @@
+.contacto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin : 2rem 0;
+    padding: 2rem   ;
+}
+
+.contactoHeader{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 4rem;
+    color: #ff3131;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    letter-spacing: 10px;
+}
+
+.contactoHeader img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    align-self: center;
+}
+.contactoInner{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.contactoInner :hover{
+    color: #ff3131;
+}
+h1{
+    position: relative;
+    bottom: 0;
+    color: #ff3131;
+    display: inline-block;
+    margin: 10px 0px 30px 0px;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
